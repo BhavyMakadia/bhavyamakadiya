@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#fafafa] text-slate-800 dark:bg-dark dark:text-slate-200 transition-colors duration-300;
+  font-family: "Inter", system-ui, sans-serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary/50;
+}
+
+::selection {
+  @apply bg-primary/30;
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-secondary to-accent-pink;
+  }
+
+  .glass {
+    @apply bg-white/80 dark:bg-dark/80 backdrop-blur-xl border border-slate-200/50 dark:border-white/5;
+  }
+
+  .card-surface {
+    @apply bg-white dark:bg-dark-card border border-slate-200 dark:border-white/5 rounded-2xl;
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "about": {
+    "name": "Bhavya Makadiya",
+    "bio": "Hello, I'm Bhavya, a passionate Backend Developer with expertise in building scalable, production-ready systems. I specialize in Node.js, TypeScript, and PostgreSQL, with hands-on experience in real-time communication, cloud services, and AI integration. I'm dedicated to creating robust backend architectures that power meaningful user experiences.",
+    "summary": "I have worked as a Backend Developer at Tibicle LLP, where I architected and deployed a scalable matchmaking platform with real-time chat, video/audio calls, and AI-powered matching. I also gained experience as a Database Developer at Knovos India, working on enterprise document review systems. My expertise spans full-stack development, database design, and cloud infrastructure.",
+    "education_summary": "I am pursuing my B.Tech in Information Technology from Dharmsinh Desai University, Nadiad, building upon my Diploma in Computer Engineering from A. V. Parekh Technical Institute, Rajkot, where I achieved 9.40/10 CGPA.",
+    "extracurriculars": "I have acquired several certifications and actively work on personal projects to enhance my technical skills. I'm passionate about problem-solving, active learning, and collaborating with teams to build innovative solutions."
+  },
+  "contact": [
+    {
+      "link": "https://github.com/BhavyMakadia",
+      "label": "Github"
+    },
+    {
+      "link": "www.linkedin.com/in/bhavy-makadia-6782691aa",
+      "label": "LinkedIn"
+    },
+    {
+      "link": "mailto:bhavymakadiya3302@gmail.com",
+      "label": "Email"
+    },
+    {
+      "link": "https://bhavya-portfolio.com",
+      "label": "Portfolio"
+    }
+  ],
+  "education": [
+    {
+      "school": "Dharmsinh Desai University",
+      "degree": "B.Tech in Information Technology",
+      "link": "https://www.ddu.ac.in",
+      "year": "2022 - 2025",
+      "gpa": "7.55/10 CPI",
+      "location": "Nadiad, Gujarat",
+      "relevantCourses": "Software Engineering, Full Stack Development, Database Management Systems, Data Structures & Algorithms"
+    },
+    {
+      "school": "A. V. Parekh Technical Institute",
+      "degree": "Diploma in Computer Engineering",
+      "link": "https://www.avpti.org",
+      "year": "2019 - 2022",
+      "gpa": "9.40/10 CGPA",
+      "location": "Rajkot, Gujarat",
+      "relevantCourses": "Computer Programming, Database Management, Web Development, Software Engineering"
+    },
+    {
+      "school": "Shri Sarveshwar Vidhya Mandir",
+      "degree": "S.S.C",
+      "year": "2018",
+      "gpa": "PR 96.76",
+      "relevantCourses": ""
+    }
+  ],
+  "experience": [
+    {
+      "name": "Tibicle LLP",
+      "position": "Backend Developer",
+      "url": "https://www.tibicle.com",
+      "startDate": "2025-10-15",
+      "endDate": "2026-04-31",
+      "location": "Ahmedabad, Gujarat",
+      "summary": "Developed and deployed a scalable matchmaking platform backend using Node.js, TypeScript, Express.js, and PostgreSQL with real-time chat capabilities via Socket.IO. Acquired fundamental knowledge of Backend Development and successfully completed all assigned tasks.",
+      "highlights": [
+        "Architected and deployed a production-ready Muslim matchmaking platform backend using Node.js, TypeScript, Express.js, and PostgreSQL, supporting 1000+ concurrent users with real-time chat via Socket.IO and video/audio calls through Agora RTC.",
+        "Implemented comprehensive authentication system with JWT-based access/refresh tokens, Passport.js strategies (Local + JWT), role-based access control (RBAC), and bcrypt password hashing, ensuring secure user sessions across 50+ API endpoints.",
+        "Designed and executed 32+ database migrations using Knex.js across 5 PostgreSQL schemas (users, master, chat, matching, accounting) managing 40+ tables with complex relationships, foreign keys, and cascade rules for data integrity.",
+        "Built end-to-end In-App Purchase (IAP) system integrating Apple App Store and Google Play Billing APIs with automated webhook processing for subscription renewals, cancellations, and receipt validation, reducing manual intervention by 95%.",
+        "Integrated AWS S3 for scalable media storage with CloudFront CDN for optimized content delivery, implementing signed URLs with 50-minute expiry for secure access to user photos, videos, and documents.",
+        "Developed multi-channel notification system with Firebase Cloud Messaging (FCM) and Apple Push Notification service (APNs), delivering 8 categories of notifications with deep linking support for seamless mobile app navigation.",
+        "Integrated SendGrid and Brevo for transactional email delivery using Nodemailer with EJS templating, supporting user registration, password reset, OTP verification, and wali invitation workflows.",
+        "Implemented Didit KYC API for identity verification with facial recognition (75% match threshold), document validation, and multi-step approval workflow, enhancing platform trust and security compliance.",
+        "Built AI-powered matchmaking engine using OpenAI API to analyze personality traits, values, and quiz responses, generating compatibility scores and weekly match batches through automated cron jobs.",
+        "Developed intelligent engagement system with 3 automated cron jobs (node-cron) for relationship milestone nudges (Day 2, 30, 36), conversation activity monitoring, and gentle engagement reminders with 14-day frequency caps.",
+        "Created modular microservices architecture with 27+ feature modules (auth, chat, matches, payments, notifications, quiz, growth hub) following Container Pattern, Repository Pattern, and Service Layer Pattern for maintainable codebase.",
+        "Implemented comprehensive request validation using Joi schemas across all endpoints, error handling middleware, SQL injection prevention through Knex parameterized queries, and CORS configuration for API security."
+      ]
+    },
+    {
+      "name": "Knovos India Pvt. Ltd",
+      "position": "Database Developer",
+      "url": "https://www.knovos.com",
+      "startDate": "2025-01-01",
+      "endDate": "2025-05-31",
+      "location": "Gandhinagar, Gujarat",
+      "highlights": [
+        "Designed and developed relational database schemas to support large-scale document assessment operations for enterprise document review and legal case management system.",
+        "Wrote complex SQL queries and optimized database performance for high-volume data processing using MS SQL Server 2019.",
+        "Collaborated with cross-functional teams to implement backend data solutions ensuring data accuracy and integrity.",
+        "Assisted in integrating database solutions with application layers to enhance the overall system functionality.",
+        "Implemented role-based access control, audit logging, case and folder management, and compliance tracking features.",
+        "Worked on structured data modeling, stored procedures, and optimization for secure and efficient legal data workflows."
+      ],
+      "projects": [
+        {
+          "title": "E-Discovery System",
+          "description": [
+            "Developed and deployed a scalable document review system for legal investigations using ASP.NET Core MVC and MS SQL Server 2019.",
+            "Implemented role-based access control, audit logging, case and folder management, and compliance tracking features.",
+            "Worked on structured data modeling, stored procedures, and optimization for secure and efficient legal data workflows.",
+            "Designed dashboards and workflows for reviewers to tag, comment, and analyze documents.",
+            "Tech Stack: ASP.NET Core, ExtJS, SQL Server, Identity Framework, SMTP, Solr."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DS Infoway",
+      "position": "Web Development Intern",
+      "url": "https://www.dsinfoway.com",
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-30",
+      "location": "Rajkot, Gujarat",
+      "highlights": [
+        "Acquired hands-on experience in web development, developing Full Stack web applications using JavaScript, ReactJS, HTML, CSS, Bootstrap.",
+        "Explored diverse methodologies of software maintenance, utilizing tools such as Git.",
+        "Worked on responsive web design and component-based architecture.",
+        "Collaborated with team members on code reviews and best practices."
+      ]
+    }
+  ],
+  "certifications": [],
+  "projects": [
+    {
+      "title": "Yasara - Matchmaking Platform API ",
+      "image": "/projects/yasara.png",
+      "description": "A comprehensive backend system powering a faith-based relationship platform with AI-driven matching, real-time communication, and intelligent engagement features. Built with Node.js, TypeScript, Express.js, and PostgreSQL.",
+      "toolsTech": "Node.js, TypeScript, Express.js, PostgreSQL, Socket.IO, Agora RTC, AWS S3, Firebase, OpenAI API, Knex.js, JWT, Passport.js",
+      "codeOn": "Github",
+      "featured": true
+    },
+    {
+      "title": "E-Discovery System",
+      "image": "ediscovery.png",
+      "description": "Enterprise document review and legal case management system developed using ASP.NET Core MVC and MS SQL Server 2019. Features include role-based access control, audit logging, case management, and compliance tracking.",
+      "toolsTech": "ASP.NET Core, ExtJS, SQL Server, Identity Framework, SMTP, Solr",
+      "codeOn": "Github"
+    },
+    {
+      "title": "Real Estate Property Selling",
+      "link": "https://github.com/BhavyMakadia/Real-Estate-Property-Selling",
+      "image": "RealEstate.png",
+      "description": "A responsive platform for property listings and management using the MERN stack and Tailwind CSS. Implemented features such as user registration, reviews, an admin panel, JWT, and Google authentication.",
+      "toolsTech": "MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind CSS",
+      "codeOn": "Github",
+       "featured": true
+    },
+    {
+      "title": "Book Store",
+      "link": "https://github.com/BhavyMakadia/bookstore",
+      "image": "BookStore.jpg",
+      "description": "Full-stack application for book and author management, complete with dedicated user and admin interfaces. Leveraged Spring Boot for a scalable backend, ensuring efficient server-side operations and data management.",
+      "toolsTech": "ReactJS, Spring Boot, MySQL",
+      "codeOn": "Github"
+    },
+    {
+      "title": "News WebApp",
+      "link": "http://github.com/BhavyMakadia/newsapp",
+      "image": "News.jpg",
+      "description": "A React-based web application providing real-time news. Developed using React and Bootstrap, ensuring a cutting-edge, responsive, and user-friendly interface. Integrated the News API to provide real-time news updates.",
+      "toolsTech": "ReactJS, Bootstrap, News API",
+      "codeOn": "Github"
+    },
+    {
+      "title": "Indian Food Recipes",
+      "link": "https://github.com/BhavyMakadia/Indian-Food-Recipe",
+      "image": "Indian_Food_Recipes.jpeg",
+      "description": "A website-based platform providing recipes of famous Indian dishes. Designed to ensure a seamless and secure experience for both users and administrators with responsive interface crafted using Bootstrap.",
+      "toolsTech": "PHP, HTML, CSS, Bootstrap, MySQL",
+      "codeOn": "Github"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        { "label": "JavaScript", "link": "https://javascript.info/" },
+        { "label": "TypeScript", "link": "https://www.typescriptlang.org/" },
+        { "label": "Java", "link": "https://www.java.com/en/" },
+        { "label": "C/C++", "link": "https://cplusplus.com/doc/tutorial/" },
+        { "label": "SQL", "link": "https://www.w3schools.com/sql/" },
+        { "label": "HTML", "link": "https://www.w3schools.com/html/" },
+        { "label": "CSS", "link": "https://www.w3schools.com/css/" }
+      ]
+    },
+    {
+      "category": "Backend Frameworks",
+      "items": [
+        { "label": "Node.js", "link": "https://nodejs.org/" },
+        { "label": "Express.js", "link": "https://expressjs.com/" },
+        { "label": "Spring Boot", "link": "https://spring.io/" },
+        { "label": "ASP.NET Core", "link": "https://dotnet.microsoft.com/apps/aspnet" }
+      ]
+    },
+    {
+      "category": "Frontend Frameworks",
+      "items": [
+        { "label": "ReactJS", "link": "https://react.dev/" },
+        { "label": "Bootstrap", "link": "https://getbootstrap.com/" },
+        { "label": "Tailwind CSS", "link": "https://tailwindcss.com/" },
+        { "label": "EJS", "link": "https://ejs.co/" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "items": [
+        { "label": "PostgreSQL", "link": "https://www.postgresql.org/" },
+        { "label": "MySQL", "link": "https://www.mysql.com/" },
+        { "label": "MongoDB", "link": "https://www.mongodb.com/atlas/database" },
+        { "label": "Microsoft SQL Server", "link": "https://www.microsoft.com/sql-server" }
+      ]
+    },
+    {
+      "category": "Cloud & Storage",
+      "items": [
+        { "label": "AWS S3", "link": "https://aws.amazon.com/s3/" },
+        { "label": "AWS CloudFront", "link": "https://aws.amazon.com/cloudfront/" },
+        { "label": "Firebase", "link": "https://firebase.google.com/" }
+      ]
+    },
+    {
+      "category": "Real-Time & Communication",
+      "items": [
+        { "label": "Socket.IO", "link": "https://socket.io/" },
+        { "label": "Agora RTC", "link": "https://www.agora.io/" },
+        { "label": "WebSockets", "link": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API" }
+      ]
+    },
+    {
+      "category": "Authentication & Security",
+      "items": [
+        { "label": "JWT", "link": "https://jwt.io/" },
+        { "label": "Passport.js", "link": "https://www.passportjs.org/" },
+        { "label": "bcrypt", "link": "https://www.npmjs.com/package/bcrypt" },
+        { "label": "OAuth", "link": "https://oauth.net/" }
+      ]
+    },
+    {
+      "category": "APIs & Integrations",
+      "items": [
+        { "label": "REST APIs", "link": "https://restfulapi.net/" },
+        { "label": "OpenAI API", "link": "https://openai.com/api/" },
+        { "label": "Firebase Cloud Messaging", "link": "https://firebase.google.com/docs/cloud-messaging" },
+        { "label": "SendGrid", "link": "https://sendgrid.com/" },
+        { "label": "Brevo", "link": "https://www.brevo.com/" },
+        { "label": "Didit API", "link": "https://didit.me/" },
+        { "label": "Agora SDK", "link": "https://www.agora.io/" }
+      ]
+    },
+    {
+      "category": "Libraries & Tools",
+      "items": [
+        { "label": "Knex.js", "link": "https://knexjs.org/" },
+        { "label": "Joi", "link": "https://joi.dev/" },
+        { "label": "Nodemailer", "link": "https://nodemailer.com/" },
+        { "label": "node-cron", "link": "https://www.npmjs.com/package/node-cron" },
+        { "label": "Moment.js", "link": "https://momentjs.com/" },
+        { "label": "i18n", "link": "https://www.i18next.com/" },
+        { "label": "Puppeteer", "link": "https://pptr.dev/" }
+      ]
+    },
+    {
+      "category": "DevOps & Tools",
+      "items": [
+        { "label": "Git", "link": "https://git-scm.com/" },
+        { "label": "GitHub", "link": "https://github.com/" },
+        { "label": "Postman", "link": "https://www.postman.com/" },
+        { "label": "VSCode", "link": "https://code.visualstudio.com/" },
+        { "label": "IntelliJ IDEA", "link": "https://www.jetbrains.com/idea/" }
+      ]
+    },
+    {
+      "category": "Payment Integration",
+      "items": [
+        { "label": "Razorpay", "link": "https://razorpay.com/" },
+        { "label": "Apple In-App Purchase", "link": "https://developer.apple.com/in-app-purchase/" },
+        { "label": "Google Play Billing", "link": "https://developer.android.com/google/play/billing" }
+      ]
+    },
+    {
+      "category": "Soft Skills",
+      "items": [
+        { "label": "Problem Solving" },
+        { "label": "Active Learning" },
+        { "label": "Team Collaboration" },
+        { "label": "Adaptability" },
+        { "label": "Presentation" },
+        { "label": "Time Management" }
+      ]
+    }
+  ],
+  "routes": [
+    { "label": "Bhavya Makadiya", "path": "/", "index": true },
+    { "label": "About", "path": "/about" },
+    { "label": "Education", "path": "/education" },
+    { "label": "Experience", "path": "/experience" },
+    { "label": "Skills", "path": "/skills" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Certifications", "path": "/certifications" },
+    { "label": "Contact", "path": "/contact" }
+  ]
+}

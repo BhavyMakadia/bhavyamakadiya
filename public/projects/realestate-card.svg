@@ -1,0 +1,51 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="realestateCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#059669;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="20" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Card Background -->
+  <rect width="600" height="400" rx="16" fill="url(#realestateCardBg)" filter="url(#cardShadow)"/>
+  
+  <!-- Decorative Pattern -->
+  <circle cx="90" cy="80" r="95" fill="white" opacity="0.05"/>
+  <circle cx="510" cy="320" r="115" fill="white" opacity="0.05"/>
+  
+  <!-- Main Icon Area -->
+  <g transform="translate(300, 150)">
+    <!-- House Icon -->
+    <g opacity="0.95">
+      <!-- Roof -->
+      <path d="M -80 10 L 0 -60 L 80 10 Z" fill="white"/>
+      <!-- House Body -->
+      <rect x="-65" y="10" width="130" height="100" fill="white"/>
+      <!-- Door -->
+      <rect x="-20" y="50" width="40" height="60" fill="#059669" opacity="0.7"/>
+      <!-- Windows -->
+      <rect x="-55" y="30" width="25" height="25" fill="#059669" opacity="0.7"/>
+      <rect x="30" y="30" width="25" height="25" fill="#059669" opacity="0.7"/>
+      <!-- Chimney -->
+      <rect x="45" y="-30" width="15" height="35" fill="white" opacity="0.9"/>
+    </g>
+  </g>
+  
+  <!-- Title Section -->
+  <text x="300" y="290" font-family="Arial, sans-serif" font-size="38" font-weight="bold" 
+        fill="white" text-anchor="middle">Real Estate</text>
+  <text x="300" y="330" font-family="Arial, sans-serif" font-size="26" font-weight="600" 
+        fill="white" text-anchor="middle" opacity="0.95">Platform</text>
+  
+  <!-- Tech Stack Indicator -->
+  <g transform="translate(300, 365)">
+    <circle cx="-30" cy="0" r="5" fill="white" opacity="0.7"/>
+    <circle cx="-10" cy="0" r="5" fill="white" opacity="0.7"/>
+    <circle cx="10" cy="0" r="5" fill="white" opacity="0.7"/>
+    <circle cx="30" cy="0" r="5" fill="white" opacity="0.7"/>
+  </g>
+</svg>
