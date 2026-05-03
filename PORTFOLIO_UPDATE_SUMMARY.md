@@ -1,17 +1,17 @@
 # Portfolio Update Summary
 
 ## Overview
-Successfully updated the portfolio with Bhavya Makadiya's information based on the provided internship certificate and resume documents.
+Successfully updated the portfolio with Bhavy Makadiya's information based on the provided internship certificate and resume documents.
 
 ## Key Changes Made
 
 ### 1. Personal Information
-- **Name**:  "Bhavya Makadiya"
+- **Name**:  "Bhavy Makadiya"
 - **Bio**: Updated to reflect Backend Developer expertise with focus on Node.js, TypeScript, PostgreSQL
 - **Summary**: Highlighted Tibicle LLP and Knovos India experience
-- **Email**: makadiyabhavya@gmail.com
+- **Email**: makadiyaBhavy@gmail.com
 - **GitHub**: https://github.com/BhavyMakadia/
-- **LinkedIn**: https://www.linkedin.com/in/bhavya-makadiya
+- **LinkedIn**: https://www.linkedin.com/in/Bhavy-makadiya
 
 ### 2. Education
 Updated with three educational institutions:
@@ -139,9 +139,9 @@ Reorganized and updated skills into 12 categories:
 
 ## Certificate Information
 Based on the Tibicle LLP Internship Certificate:
-- **Intern Name**: Bhavya Makadiya
+- **Intern Name**: Bhavy Makadiya
 - **Duration**: October 15, 2024 to April 31, 2026
-- **Supervisor**: Mr. Bhavya Nayak
+- **Supervisor**: Mr. Bhavy Nayak
 - **Focus Area**: Backend Development
 - **Company**: Tibicle LLP
 - **CEO**: Raj Jagani

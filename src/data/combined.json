@@ -1,7 +1,7 @@
 {
   "about": {
-    "name": "Bhavya Makadiya",
-    "bio": "Hello, I'm Bhavya, a passionate Backend Developer with expertise in building scalable, production-ready systems. I specialize in Node.js, TypeScript, and PostgreSQL, with hands-on experience in real-time communication, cloud services, and AI integration. I'm dedicated to creating robust backend architectures that power meaningful user experiences.",
+    "name": "Bhavy Makadiya",
+    "bio": "Hello, I'm Bhavy, a passionate Backend Developer with expertise in building scalable, production-ready systems. I specialize in Node.js, TypeScript, and PostgreSQL, with hands-on experience in real-time communication, cloud services, and AI integration. I'm dedicated to creating robust backend architectures that power meaningful user experiences.",
     "summary": "I have worked as a Backend Developer at Tibicle LLP, where I architected and deployed a scalable matchmaking platform with real-time chat, video/audio calls, and AI-powered matching. I also gained experience as a Database Developer at Knovos India, working on enterprise document review systems. My expertise spans full-stack development, database design, and cloud infrastructure.",
     "education_summary": "I am pursuing my B.Tech in Information Technology from Dharmsinh Desai University, Nadiad, building upon my Diploma in Computer Engineering from A. V. Parekh Technical Institute, Rajkot, where I achieved 9.40/10 CGPA.",
     "extracurriculars": "I have acquired several certifications and actively work on personal projects to enhance my technical skills. I'm passionate about problem-solving, active learning, and collaborating with teams to build innovative solutions."
@@ -20,7 +20,7 @@
       "label": "Email"
     },
     {
-      "link": "https://bhavya-portfolio.com",
+      "link": "https://bhavymakadiya.netlify.app/",
       "label": "Portfolio"
     }
   ],
@@ -289,7 +289,7 @@
     }
   ],
   "routes": [
-    { "label": "Bhavya Makadiya", "path": "/", "index": true },
+    { "label": "Bhavy Makadiya", "path": "/", "index": true },
     { "label": "About", "path": "/about" },
     { "label": "Education", "path": "/education" },
     { "label": "Experience", "path": "/experience" },
