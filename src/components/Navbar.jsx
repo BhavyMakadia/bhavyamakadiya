@@ -51,7 +51,7 @@ export default function Navbar({ name }) {
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <img 
-              src="/logo.svg" 
+              src={`${import.meta.env.BASE_URL}logo.svg`}
               alt="Logo" 
               className="w-10 h-10"
             />
