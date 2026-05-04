@@ -50,11 +50,11 @@ export default function Navbar({ name }) {
             href="#"
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            <img 
-              src={`${import.meta.env.BASE_URL}logo.svg`}
+            {/* <img 
+              src={`${import.meta.env.BASE_URL}Bhavya.jpeg`}
               alt="Logo" 
               className="w-10 h-10"
-            />
+            /> */}
             <span className="text-lg font-bold tracking-tight">
               {name || "Portfolio"}
             </span>
