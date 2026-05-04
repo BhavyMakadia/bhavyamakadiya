@@ -20,7 +20,7 @@
       "label": "Email"
     },
     {
-      "link": "https://bhavymakadiya.netlify.app/",
+      "link": "https://bhavymakadia.github.io/bhavyamakadiya/",
       "label": "Portfolio"
     }
   ],
@@ -122,7 +122,7 @@
   "projects": [
     {
       "title": "Yasara - Matchmaking Platform API ",
-      "image": "/projects/yasara.png",
+      "image": "yasara.png",
       "description": "A comprehensive backend system powering a faith-based relationship platform with AI-driven matching, real-time communication, and intelligent engagement features. Built with Node.js, TypeScript, Express.js, and PostgreSQL.",
       "toolsTech": "Node.js, TypeScript, Express.js, PostgreSQL, Socket.IO, Agora RTC, AWS S3, Firebase, OpenAI API, Knex.js, JWT, Passport.js",
       "codeOn": "Github",

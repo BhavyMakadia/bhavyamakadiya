@@ -51,7 +51,7 @@ export default function About({ about }) {
                 <div className="w-56 h-56 md:w-64 md:h-64 rounded-full bg-gradient-to-br from-primary via-secondary to-accent-pink p-1">
                   <div className="w-full h-full rounded-full bg-slate-100 dark:bg-dark-card overflow-hidden">
                     <img 
-                      src="/me.png" 
+                      src={`${import.meta.env.BASE_URL}me.png`}
                       alt={about?.name || "Profile"} 
                       className="w-full h-full object-cover"
                     />
